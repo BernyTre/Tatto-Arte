@@ -18,8 +18,13 @@ body{
     width: 100%;
     max-width: 800px;
     display: flex;
-    
+    background-color: #404040;
+    border-top: 0.5px solid #F1EFEF;
+    border-left: 0.5px solid #F1EFEF;
+    border-right: 0.5px solid #F1EFEF;
 }
+
+
 
 footer{
     margin: auto;
@@ -50,18 +55,33 @@ a{
     margin-left: 43%;
     padding-top: 10px;
 }
+
 @media screen and (max-width: 800px){
     
     .contenedor-all{
         margin-top: 10px;
+        display: block;
+        border-top: 0.5px solid #F1EFEF;
+        border-left: 0.5px solid #F1EFEF;
+        border-right: 0.5px solid #F1EFEF;
+
     }
     
+
+        
     .contenedor-izq{
-        width: 0;
+        width: 100%;
+        border-bottom: 0px solid #F1EFEF;      
+        border-left: 0;
+        border-right: 0.5px solid #F1EFEF;
     }
     
     .contenedor-der{
         width: 100%;
+        margin-top: 0px;
+                
+        border-left: 0;
+        border-right: 0.5px solid #F1EFEF;
     }
     
     ul{
